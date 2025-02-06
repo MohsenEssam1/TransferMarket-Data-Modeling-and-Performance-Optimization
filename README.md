@@ -58,36 +58,15 @@ The dataset files (**CSV, Parquet, and Avro**) were uploaded to an **HDFS cluste
 ###  Setup & Upload  
 A **Hadoop container** was launched using Docker, mounting the dataset under `/data`. Files were uploaded to HDFS while measuring **write time**:  
 
-```bash
-for file in *; do   
-  time hadoop fs -put "$file" /dfshome/; 
-done
-### Read Performance
-``` bash
-for file in *; do   
-  time hadoop fs -cat "/dfshome/$file" > /dev/null 
-done
+
 ##  Comparison & Results  
 
 - **Average write & read times** were calculated for each file format.  
 - **File size differences** were analyzed.  
-- A **visual comparison** of the results will be provided.  
-
-###  Observations  
-- **Parquet** showed better read performance due to its columnar storage structure.  
-- **Avro** provided balanced read/write speeds and smaller file sizes with compression.  
-- **CSV** had the **largest file size** and slowest read performance due to its plain-text format.  
-
-###  Performance & Size Comparison  
-The following charts illustrate the differences:  
-
-#### **1️ Write vs Read Performance**  
-![Write vs Read Performance]![![visiulization](https://github.com/user-attachments/assets/88b74ada-065b-447d-8122-aaab771a0a4e)
-]()
-)  
+- A **visual comparison** of the results will be provided.
+- ![Write vs Read Performance]![![visiulization](https://github.com/user-attachments/assets/88b74ada-065b-447d-8122-aaab771a0a4e) 
 
 
-These insights help determine the **most efficient format** for storage and retrieval based on use case requirements.  
 
 
 
