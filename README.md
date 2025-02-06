@@ -31,3 +31,26 @@ This project models the [Transfermarket dataset](https://www.kaggle.com/datasets
 # ETL Process
 The data was extracted, transformed, and loaded using Python Pandas. The final processed data was saved into CSV files for further analysis.
 
+# Converting CSV to Parquet and Avro  
+
+This script converts CSV files into **Parquet** and **Avro** formats for better storage and performance.  
+
+###  Steps:  
+1. Reads all CSV files from the **source folder**.  
+2. Ensures **target directories** for Parquet and Avro exist.  
+3. Converts all columns to **string** for consistency.  
+4. Saves the data as **Parquet** (columnar storage).  
+5. Saves the data as **Avro** (schema-based binary format).  
+
+### Tools Used:  
+- **pandas** → Read & process CSV files  
+- **pyarrow** → Convert DataFrames to Parquet  
+- **fastavro** → Write Avro files  
+- **os** → Handle directories & files  
+
+### Execution:  
+The script loops through CSV files, converts them, and saves the results in the respective folders.  
+
+
+
+
