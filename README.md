@@ -25,6 +25,9 @@ This project models the [Transfermarket dataset](https://www.kaggle.com/datasets
     - `shootout`
     - `assist`
 
+![schema](https://github.com/user-attachments/assets/a78e3a80-4e3b-4056-87d8-65b751904b8b)
+
+
 # ETL Process
 The data was extracted, transformed, and loaded using Python Pandas. The final processed data was saved into CSV files for further analysis.
 
