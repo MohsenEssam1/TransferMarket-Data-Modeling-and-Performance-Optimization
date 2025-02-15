@@ -64,7 +64,8 @@ A **Hadoop container** was launched using Docker, mounting the dataset under `/d
 - **Average write & read times** were calculated for each file format.  
 - **File size differences** were analyzed.  
 - A **visual comparison** of the results will be provided.
-- ![Write vs Read Performance]![![visiulization](https://github.com/user-attachments/assets/88b74ada-065b-447d-8122-aaab771a0a4e) 
+- ![Write vs Read Performance] ![aloo](https://github.com/user-attachments/assets/fdf31c7a-9bad-4682-9074-a64a66b1cbff)
+
 
 
 
