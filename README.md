@@ -59,6 +59,26 @@ The dataset files (**CSV, Parquet, and Avro**) were uploaded to an **HDFS cluste
 A **Hadoop container** was launched using Docker, mounting the dataset under `/data`. Files were uploaded to HDFS while measuring **write time**:  
 
 
+## 🖼️ Sample Dashboard Preview
+
+> 📌 *Visuals include transfer amounts, player positions, club analysis, timeline-based insights.*
+
+   ![Dashboard](Insights/Players-Haland.jpg)
+   ![Dashboard](Insights/Competitions.jpg)
+
+---
+
+## ⚙️ Technologies Used
+
+| Purpose              | Tools                        |
+|----------------------|------------------------------|
+| EDA & ETL            | Python, Pandas, Seaborn      |
+| Storage              | CSV  |
+| Visualization        | Power BI                     |
+| Dashboard Export     | `.pbix`, PNG                  |
+
+
+
 
 
 
