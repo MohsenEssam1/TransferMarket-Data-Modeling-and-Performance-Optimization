@@ -59,16 +59,6 @@ The dataset files (**CSV, Parquet, and Avro**) were uploaded to an **HDFS cluste
 A **Hadoop container** was launched using Docker, mounting the dataset under `/data`. Files were uploaded to HDFS while measuring **write time**:  
 
 
-##  Comparison & Results  
-
-- **Average write & read times** were calculated for each file format.  
-- **File size differences** were analyzed.  
-- A **visual comparison** of the results will be provided.
-- ![Write vs Read Performance] ![aloo](https://github.com/user-attachments/assets/fdf31c7a-9bad-4682-9074-a64a66b1cbff)
-- ![output](https://github.com/user-attachments/assets/64d64662-12df-4a51-9707-a36615e9f66b)
-
-
-
 
 
 
