@@ -78,7 +78,7 @@ A **Hadoop container** was launched using Docker, mounting the dataset under `/d
 | Purpose              | Tools                        |
 |----------------------|------------------------------|
 | EDA & ETL            | Python, Pandas, Seaborn      |
-| Storage              | CSV  |
+| Storage              | CSV , avro and parquet  |
 | Visualization        | Power BI                     |
 | Dashboard Export     | `.pbix`, PNG                  |
 
