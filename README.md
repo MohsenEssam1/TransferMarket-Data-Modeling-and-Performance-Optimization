@@ -63,8 +63,13 @@ A **Hadoop container** was launched using Docker, mounting the dataset under `/d
 
 > 📌 *Visuals include transfer amounts, player positions, club analysis, timeline-based insights.*
 
-   ![Dashboard](Insights/Players-Haland.jpg)
-   ![Dashboard](Insights/Competitions.jpg)
+  
+  ![Players-Haland](https://github.com/user-attachments/assets/e8fb6284-9b93-47ad-a069-72dd43bb5eaa)
+
+  ![Competitions](https://github.com/user-attachments/assets/207fd814-5c0f-45ac-85fd-ea50954b9471)
+
+
+  
 
 ---
 
